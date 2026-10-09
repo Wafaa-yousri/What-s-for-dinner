@@ -1,0 +1,127 @@
+ body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #faedde;
+      box-sizing: content-box;
+    }
+
+    /* NAVBAR */
+    .navbar-brand img {
+      height: 32px;
+      margin-right: 8px;
+    }
+
+    /* CARD */
+    .recipe-card {
+      border-radius: 20px;
+   background-color: #fdfcfc;
+      margin: auto;
+      padding: 20px;
+  display: flex;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+    
+
+    /* IMAGE SECTION */
+    .image-wrapper {
+      position: relative;
+ 
+    }
+
+    .image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  
+    }
+
+    /* OVERLAY INFO (BOTTOM ON IMAGE) */
+    .info-overlay {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 14px 24px;
+      display: flex;
+      gap: 30px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+
+    .info-overlay div {
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .info-overlay small {
+      color: #888;
+      display: block;
+    }
+
+    /* TABS */
+    .nav-tabs .nav-link {
+      color: #999;
+      font-weight: 500;
+    }
+
+    .nav-tabs .nav-link.active {
+      color: #e74c3c;
+      border-color: transparent transparent #e74c3c;
+      border-bottom: 2px solid #e74c3c;
+    }
+
+    /* FIXED BUTTON */
+    .fixed-action {
+      position: sticky;
+      bottom: 20px;
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    
+    }
+
+    .btn-custom {
+      background: #e74c3c;
+      color: #fff;
+      border-radius: 30px;
+      padding: 12px 28px;
+    }
+
+    .nutrition-card {
+  margin: 30px auto;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.item {
+  display: flex;
+  border-radius: 12px;
+  width: 100%;
+  padding: 14px;
+  text-align: center;
+}
+.item-box{
+  padding: 18px;
+  width: 10%;
+  border-radius: 5px;
+
+}
+.label {
+  margin: auto;
+  display: block;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 6px;
+}
+
+.value {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
